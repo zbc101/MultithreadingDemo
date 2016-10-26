@@ -19,6 +19,15 @@
 		0F1F5F2C1DBA055F0046D206 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F1F5F2A1DBA055F0046D206 /* RootViewController.xib */; };
 		0F1F5F2F1DBA0A070046D206 /* CreateThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1F5F2E1DBA0A070046D206 /* CreateThreadViewController.m */; };
 		0F1F5F321DBEFE780046D206 /* NSThreadPriorityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1F5F311DBEFE780046D206 /* NSThreadPriorityViewController.m */; };
+		0FF270321DC08184004BDAF5 /* LockedNSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF270311DC08184004BDAF5 /* LockedNSThreadViewController.m */; };
+		0FF270361DC08235004BDAF5 /* MyAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF270351DC08235004BDAF5 /* MyAccount.m */; };
+		0FF270391DC08562004BDAF5 /* NSThreadApplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF270381DC08562004BDAF5 /* NSThreadApplyViewController.m */; };
+		0FF2703E1DC08F0D004BDAF5 /* NSOperationQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF2703D1DC08F0D004BDAF5 /* NSOperationQueueViewController.m */; };
+		0FF270411DC09196004BDAF5 /* ImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF270401DC09196004BDAF5 /* ImageOperation.m */; };
+		0FF270441DC0929A004BDAF5 /* CustomNSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF270431DC0929A004BDAF5 /* CustomNSOperationViewController.m */; };
+		0FF270481DC0A285004BDAF5 /* TestGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF270471DC0A285004BDAF5 /* TestGCDViewController.m */; };
+		0FF2704B1DC0AA72004BDAF5 /* SyncAndAsyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF2704A1DC0AA72004BDAF5 /* SyncAndAsyncViewController.m */; };
+		0FF2704E1DC0ACBA004BDAF5 /* GCDDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF2704D1DC0ACBA004BDAF5 /* GCDDemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +72,24 @@
 		0F1F5F2E1DBA0A070046D206 /* CreateThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateThreadViewController.m; sourceTree = "<group>"; };
 		0F1F5F301DBEFE780046D206 /* NSThreadPriorityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadPriorityViewController.h; sourceTree = "<group>"; };
 		0F1F5F311DBEFE780046D206 /* NSThreadPriorityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadPriorityViewController.m; sourceTree = "<group>"; };
+		0FF270301DC08184004BDAF5 /* LockedNSThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockedNSThreadViewController.h; sourceTree = "<group>"; };
+		0FF270311DC08184004BDAF5 /* LockedNSThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockedNSThreadViewController.m; sourceTree = "<group>"; };
+		0FF270341DC08235004BDAF5 /* MyAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccount.h; sourceTree = "<group>"; };
+		0FF270351DC08235004BDAF5 /* MyAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccount.m; sourceTree = "<group>"; };
+		0FF270371DC08562004BDAF5 /* NSThreadApplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadApplyViewController.h; sourceTree = "<group>"; };
+		0FF270381DC08562004BDAF5 /* NSThreadApplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadApplyViewController.m; sourceTree = "<group>"; };
+		0FF2703C1DC08F0D004BDAF5 /* NSOperationQueueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationQueueViewController.h; sourceTree = "<group>"; };
+		0FF2703D1DC08F0D004BDAF5 /* NSOperationQueueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationQueueViewController.m; sourceTree = "<group>"; };
+		0FF2703F1DC09196004BDAF5 /* ImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageOperation.h; sourceTree = "<group>"; };
+		0FF270401DC09196004BDAF5 /* ImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageOperation.m; sourceTree = "<group>"; };
+		0FF270421DC0929A004BDAF5 /* CustomNSOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNSOperationViewController.h; sourceTree = "<group>"; };
+		0FF270431DC0929A004BDAF5 /* CustomNSOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNSOperationViewController.m; sourceTree = "<group>"; };
+		0FF270461DC0A285004BDAF5 /* TestGCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGCDViewController.h; sourceTree = "<group>"; };
+		0FF270471DC0A285004BDAF5 /* TestGCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGCDViewController.m; sourceTree = "<group>"; };
+		0FF270491DC0AA72004BDAF5 /* SyncAndAsyncViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncAndAsyncViewController.h; sourceTree = "<group>"; };
+		0FF2704A1DC0AA72004BDAF5 /* SyncAndAsyncViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncAndAsyncViewController.m; sourceTree = "<group>"; };
+		0FF2704C1DC0ACBA004BDAF5 /* GCDDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDDemoViewController.h; sourceTree = "<group>"; };
+		0FF2704D1DC0ACBA004BDAF5 /* GCDDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDDemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +140,12 @@
 		0F1F5EEE1DBA00B80046D206 /* 多线程 */ = {
 			isa = PBXGroup;
 			children = (
+				0FF270451DC0A25E004BDAF5 /* GCD */,
+				0FF2703B1DC08EDD004BDAF5 /* NSThread */,
+				0FF2703A1DC08ED8004BDAF5 /* NSOperationQueue */,
+				0FF270331DC08225004BDAF5 /* UIView */,
 				0F1F5EF21DBA00B80046D206 /* AppDelegate.h */,
 				0F1F5EF31DBA00B80046D206 /* AppDelegate.m */,
-				0F1F5F221DBA01C90046D206 /* WhyUserThreadViewController.h */,
-				0F1F5F231DBA01C90046D206 /* WhyUserThreadViewController.m */,
 				0F1F5F251DBA04480046D206 /* BaseViewController.h */,
 				0F1F5F261DBA04480046D206 /* BaseViewController.m */,
 				0F1F5EFB1DBA00B80046D206 /* Assets.xcassets */,
@@ -126,10 +155,6 @@
 				0F1F5F281DBA055F0046D206 /* RootViewController.h */,
 				0F1F5F291DBA055F0046D206 /* RootViewController.m */,
 				0F1F5F2A1DBA055F0046D206 /* RootViewController.xib */,
-				0F1F5F2D1DBA0A070046D206 /* CreateThreadViewController.h */,
-				0F1F5F2E1DBA0A070046D206 /* CreateThreadViewController.m */,
-				0F1F5F301DBEFE780046D206 /* NSThreadPriorityViewController.h */,
-				0F1F5F311DBEFE780046D206 /* NSThreadPriorityViewController.m */,
 			);
 			path = "多线程";
 			sourceTree = "<group>";
@@ -158,6 +183,58 @@
 				0F1F5F161DBA00B80046D206 /* Info.plist */,
 			);
 			path = "多线程UITests";
+			sourceTree = "<group>";
+		};
+		0FF270331DC08225004BDAF5 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				0FF270341DC08235004BDAF5 /* MyAccount.h */,
+				0FF270351DC08235004BDAF5 /* MyAccount.m */,
+				0FF2703F1DC09196004BDAF5 /* ImageOperation.h */,
+				0FF270401DC09196004BDAF5 /* ImageOperation.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		0FF2703A1DC08ED8004BDAF5 /* NSOperationQueue */ = {
+			isa = PBXGroup;
+			children = (
+				0FF2703C1DC08F0D004BDAF5 /* NSOperationQueueViewController.h */,
+				0FF2703D1DC08F0D004BDAF5 /* NSOperationQueueViewController.m */,
+				0FF270421DC0929A004BDAF5 /* CustomNSOperationViewController.h */,
+				0FF270431DC0929A004BDAF5 /* CustomNSOperationViewController.m */,
+			);
+			path = NSOperationQueue;
+			sourceTree = "<group>";
+		};
+		0FF2703B1DC08EDD004BDAF5 /* NSThread */ = {
+			isa = PBXGroup;
+			children = (
+				0F1F5F221DBA01C90046D206 /* WhyUserThreadViewController.h */,
+				0F1F5F231DBA01C90046D206 /* WhyUserThreadViewController.m */,
+				0F1F5F2D1DBA0A070046D206 /* CreateThreadViewController.h */,
+				0F1F5F2E1DBA0A070046D206 /* CreateThreadViewController.m */,
+				0F1F5F301DBEFE780046D206 /* NSThreadPriorityViewController.h */,
+				0F1F5F311DBEFE780046D206 /* NSThreadPriorityViewController.m */,
+				0FF270301DC08184004BDAF5 /* LockedNSThreadViewController.h */,
+				0FF270311DC08184004BDAF5 /* LockedNSThreadViewController.m */,
+				0FF270371DC08562004BDAF5 /* NSThreadApplyViewController.h */,
+				0FF270381DC08562004BDAF5 /* NSThreadApplyViewController.m */,
+			);
+			name = NSThread;
+			sourceTree = "<group>";
+		};
+		0FF270451DC0A25E004BDAF5 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				0FF270461DC0A285004BDAF5 /* TestGCDViewController.h */,
+				0FF270471DC0A285004BDAF5 /* TestGCDViewController.m */,
+				0FF270491DC0AA72004BDAF5 /* SyncAndAsyncViewController.h */,
+				0FF2704A1DC0AA72004BDAF5 /* SyncAndAsyncViewController.m */,
+				0FF2704C1DC0ACBA004BDAF5 /* GCDDemoViewController.h */,
+				0FF2704D1DC0ACBA004BDAF5 /* GCDDemoViewController.m */,
+			);
+			path = GCD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,12 +374,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F1F5F271DBA04480046D206 /* BaseViewController.m in Sources */,
+				0FF270481DC0A285004BDAF5 /* TestGCDViewController.m in Sources */,
 				0F1F5F2B1DBA055F0046D206 /* RootViewController.m in Sources */,
 				0F1F5F2F1DBA0A070046D206 /* CreateThreadViewController.m in Sources */,
+				0FF2704E1DC0ACBA004BDAF5 /* GCDDemoViewController.m in Sources */,
+				0FF270321DC08184004BDAF5 /* LockedNSThreadViewController.m in Sources */,
+				0FF270361DC08235004BDAF5 /* MyAccount.m in Sources */,
 				0F1F5F321DBEFE780046D206 /* NSThreadPriorityViewController.m in Sources */,
+				0FF2703E1DC08F0D004BDAF5 /* NSOperationQueueViewController.m in Sources */,
+				0FF270411DC09196004BDAF5 /* ImageOperation.m in Sources */,
 				0F1F5EF41DBA00B80046D206 /* AppDelegate.m in Sources */,
 				0F1F5F241DBA01C90046D206 /* WhyUserThreadViewController.m in Sources */,
+				0FF270391DC08562004BDAF5 /* NSThreadApplyViewController.m in Sources */,
 				0F1F5EF11DBA00B80046D206 /* main.m in Sources */,
+				0FF2704B1DC0AA72004BDAF5 /* SyncAndAsyncViewController.m in Sources */,
+				0FF270441DC0929A004BDAF5 /* CustomNSOperationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +616,7 @@
 				0F1F5F1B1DBA00B90046D206 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F1F5F1C1DBA00B90046D206 /* Build configuration list for PBXNativeTarget "多线程Tests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +625,7 @@
 				0F1F5F1E1DBA00B90046D206 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F1F5F1F1DBA00B90046D206 /* Build configuration list for PBXNativeTarget "多线程UITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +634,7 @@
 				0F1F5F211DBA00B90046D206 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

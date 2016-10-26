@@ -20,7 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    _titleArr = @[@"一、为什么要使用多线程",@"二、NSThread两种方式创建多线程和取消",@"三、NSThread优先级"];
+    _titleArr = @[@"一、为什么要使用多线程",@"二、NSThread两种方式创建多线程和取消",@"三、NSThread优先级"
+                  ,@"四、线程锁",@"五、NSThread应用",@"六、NSOperationTest",@"七、CustomOPeration"
+                  ,@"八、TestGCD",@"九、GCD同步异步区别",@"十、GCDDemoDownloadImage"];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -44,6 +46,7 @@
     Class classViews=NSClassFromString(dictAction[@(indexPath.row)]);
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     UIViewController *uvc=[[classViews alloc] init];
+    
     [self.navigationController pushViewController:uvc animated:YES];
 }
 
@@ -56,10 +59,13 @@
         actions = @{@(0) : @"WhyUserThreadViewController",
                     @(1) : @"CreateThreadViewController",
                     @(2) : @"NSThreadPriorityViewController",
-                    @(3) : @"CompetitionAmountViewController",
-                    @(4) : @"CheckCreditViewController",
-                    @(5) : @"",
-                    @(6) : @"ShowProvidentFundViewController"
+                    @(3) : @"LockedNSThreadViewController",
+                    @(4) : @"NSThreadApplyViewController",
+                    @(5) : @"NSOperationQueueViewController",//NSOperationQueue
+                    @(6) : @"CustomNSOperationViewController",
+                    @(7) : @"TestGCDViewController",
+                    @(8) : @"SyncAndAsyncViewController",
+                    @(9) : @"GCDDemoViewController"
                     };
     });
     return actions;
