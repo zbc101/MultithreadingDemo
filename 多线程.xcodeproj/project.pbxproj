@@ -28,6 +28,7 @@
 		0FF270481DC0A285004BDAF5 /* TestGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF270471DC0A285004BDAF5 /* TestGCDViewController.m */; };
 		0FF2704B1DC0AA72004BDAF5 /* SyncAndAsyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF2704A1DC0AA72004BDAF5 /* SyncAndAsyncViewController.m */; };
 		0FF2704E1DC0ACBA004BDAF5 /* GCDDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF2704D1DC0ACBA004BDAF5 /* GCDDemoViewController.m */; };
+		0FF270511DC0B308004BDAF5 /* TestGCDMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF270501DC0B308004BDAF5 /* TestGCDMoreViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,8 @@
 		0FF2704A1DC0AA72004BDAF5 /* SyncAndAsyncViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncAndAsyncViewController.m; sourceTree = "<group>"; };
 		0FF2704C1DC0ACBA004BDAF5 /* GCDDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDDemoViewController.h; sourceTree = "<group>"; };
 		0FF2704D1DC0ACBA004BDAF5 /* GCDDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDDemoViewController.m; sourceTree = "<group>"; };
+		0FF2704F1DC0B308004BDAF5 /* TestGCDMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGCDMoreViewController.h; sourceTree = "<group>"; };
+		0FF270501DC0B308004BDAF5 /* TestGCDMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGCDMoreViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +236,8 @@
 				0FF2704A1DC0AA72004BDAF5 /* SyncAndAsyncViewController.m */,
 				0FF2704C1DC0ACBA004BDAF5 /* GCDDemoViewController.h */,
 				0FF2704D1DC0ACBA004BDAF5 /* GCDDemoViewController.m */,
+				0FF2704F1DC0B308004BDAF5 /* TestGCDMoreViewController.h */,
+				0FF270501DC0B308004BDAF5 /* TestGCDMoreViewController.m */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -386,6 +391,7 @@
 				0F1F5EF41DBA00B80046D206 /* AppDelegate.m in Sources */,
 				0F1F5F241DBA01C90046D206 /* WhyUserThreadViewController.m in Sources */,
 				0FF270391DC08562004BDAF5 /* NSThreadApplyViewController.m in Sources */,
+				0FF270511DC0B308004BDAF5 /* TestGCDMoreViewController.m in Sources */,
 				0F1F5EF11DBA00B80046D206 /* main.m in Sources */,
 				0FF2704B1DC0AA72004BDAF5 /* SyncAndAsyncViewController.m in Sources */,
 				0FF270441DC0929A004BDAF5 /* CustomNSOperationViewController.m in Sources */,

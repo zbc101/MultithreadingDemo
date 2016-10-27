@@ -22,7 +22,8 @@
     // Do any additional setup after loading the view from its nib.
     _titleArr = @[@"一、为什么要使用多线程",@"二、NSThread两种方式创建多线程和取消",@"三、NSThread优先级"
                   ,@"四、线程锁",@"五、NSThread应用",@"六、NSOperationTest",@"七、CustomOPeration"
-                  ,@"八、TestGCD",@"九、GCD同步异步区别",@"十、GCDDemoDownloadImage"];
+                  ,@"八、TestGCD",@"九、GCD同步异步区别",@"十、GCDDemoDownloadImage"
+                  ,@"10、TestGCDMore"];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -65,7 +66,8 @@
                     @(6) : @"CustomNSOperationViewController",
                     @(7) : @"TestGCDViewController",
                     @(8) : @"SyncAndAsyncViewController",
-                    @(9) : @"GCDDemoViewController"
+                    @(9) : @"GCDDemoViewController",
+                    @(10): @"TestGCDMoreViewController"
                     };
     });
     return actions;

@@ -64,6 +64,7 @@
     });
     
     //    线程二
+    
     dispatch_async(serialQueue, ^{
         for (int i=0; i<100; i++) {
             NSLog(@"串行线程二:%d",i);
